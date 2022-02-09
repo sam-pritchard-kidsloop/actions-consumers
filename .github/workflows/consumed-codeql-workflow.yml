@@ -11,6 +11,6 @@ on:
 
 jobs:
   call-reusable-codeql:
-    uses: sam-pritchard-kidsloop/reusable-workflows/.github/workflows/reusable-container-workflow.yml@main
+    uses: sam-pritchard-kidsloop/reusable-workflows/.github/workflows/reusable-codeql-workflow.yml@main
     with:
       language: 'go'
