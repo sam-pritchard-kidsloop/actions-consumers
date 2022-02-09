@@ -11,4 +11,4 @@ on:
 
 jobs:
   call-reusable-container:
-    uses: sam-pritchard-kidsloop/.github/workflows/reusable-container-workflow.yml@main
+    uses: sam-pritchard-kidsloop/reusable-workflows/.github/workflows/reusable-container-workflow.yml@main
