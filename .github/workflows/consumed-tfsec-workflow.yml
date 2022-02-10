@@ -13,4 +13,4 @@ jobs:
   call-reusable-container:
     uses: sam-pritchard-kidsloop/reusable-workflows/.github/workflows/reusable-tfsec-workflow.yml@main
     with:
-      terraform-path: 'terraform/aws'
+      terraform-path: 'terraform/aws' #required param
