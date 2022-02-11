@@ -13,4 +13,4 @@ jobs:
   call-reusable-container:
     uses: sam-pritchard-kidsloop/reusable-workflows/.github/workflows/reusable-container-workflow.yml@main
     with:
-      container-path: './Docker-test'
+      docker-path: './Docker-test'
